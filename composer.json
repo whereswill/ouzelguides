@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "sparkpost/php-sparkpost": "^1.2",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

@@ -1,0 +1,25 @@
+could move role methods out of Approvals functions and into roles class
+
+there is the ability to create an empty trip and then associate work from a timesheet. that leaves you approving and locking an empty trip which I am not sure is a bad thing or not. This seems like it has the potential to be buggy but not sure why
+
+Change My work so that an admin can select a guide to view like is done for River Log
+
+Don't allow guides to be scheduled on a trip if they are working on a trip that day already
+
+Add notes function for river log so guides can add personal and public notes
+
+Make rig radio buttons on create trip page disappear for Day and 1/2 Day trips. Enter default value. Or appear for multi day trips
+
+Figure out how to write php log to a file and maybe email me.
+
+Fix the back button if you arrove at view-approved from all trips, the back button takes you back to regular trips
+
+If first and last name feilds are not filled out in user, the add guide drop-down shows blank spaces for those users. should pull in username if that is the case.
+
+Enum refactor notes:
+Does river trips have a way to de-activate in update screen?
+
+Notes
+When you delete a guide or trip, all notes need to be deleted for that entity. Let the decisions about deleting stand and delete notes after the decision is made to delete.
+
+tail -f /Applications/MAMP/logs/php_error.log

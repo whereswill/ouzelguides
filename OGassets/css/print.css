@@ -1,0 +1,90 @@
+body {
+	font-size: 10px;
+}
+
+.new-page {
+	page-break-after: always;
+}
+
+#notes_row td {
+	border-top: none;
+	font-size: .8em;
+	padding-top: 0;
+}
+
+#role_col {
+	width:14%;
+}
+
+#total_col {
+	width:10%;
+}
+
+.hr-print{
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+#trip_col {
+	width:16%;
+}
+
+.print_group p {
+	margin: 0 0 2px;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	padding: 3px;
+}
+
+th.table-spacer {
+  border: none !important;
+  width: 20px;
+}
+
+td.table-spacer {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: 1px solid #DDDDDD !important;
+  width: 20px;
+}
+
+table.table-center {
+  margin-top: 50px;
+}
+
+.table-center>thead>tr>th {
+  border-right: 1px solid #DDDDDD;
+  padding: 2px 0px 0px 0px;
+  text-align: center;
+}
+
+.table-center>tbody>tr>td  {
+  border-right: 1px solid #DDDDDD;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+}
+
+th.rotate {
+  /* Something you can count on */
+  height: 80px;
+  white-space: nowrap;
+  border-right: none !important;
+}
+
+th.rotate > div {
+  transform: translate3d(28px, 1px, 0) rotate(-60deg);
+	width: 26px;
+	transform-origin: left bottom;
+	box-sizing: border-box;
+}
+
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 0px 10px;
+}
+
+table .name-cell {
+  white-space: nowrap;
+  border-right: none !important;
+}
